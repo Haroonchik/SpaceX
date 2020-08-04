@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #fff;
+    padding-top: 53px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1230px;
+    justify-content: space-between;
+}
+
+.main-nav , .secondary-nav {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.item-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item-link:hover {
+    color: #808080;
+}
