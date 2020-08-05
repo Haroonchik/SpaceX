@@ -5,7 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     margin: 0 auto;
@@ -13,7 +13,13 @@ header{
     justify-content: space-between;
 }
 
-.main-nav , .secondary-nav {
+.container {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.main-nav,
+.secondary-nav {
     display: flex;
     align-items: center;
 }
@@ -21,9 +27,16 @@ header{
 .list {
     list-style: none;
     display: flex;
-    gap: 20px;
     font-size: 12px;
     padding: 0;
+}
+
+.item {
+    margin-right: 20px;
+}
+
+.item:last-child {
+    margin-right: 0;
 }
 
 .item-link {
@@ -33,4 +46,90 @@ header{
 
 .item-link:hover {
     color: #808080;
+}
+
+.main {
+    text-align: center;
+    padding-top: 120px;
+}
+
+.main h1 {
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+.main p {
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    max-width: 270px;
+}
+
+.main p::after {
+    content: " ";
+    display: block;
+    width: 1px;
+    height: 60px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 26px;
+}
+
+.video {
+    max-width: 1230px;
+    margin: 0 auto;
+    height: 750px;
+}
+
+.features {
+    padding-top: 500px;
+    padding-left: 52px;
+}
+
+.overview {
+    position: relative;
+}
+
+.features-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 140%;
+    /* or 34px */
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.table {
+    margin-bottom: 109px;
+}
+
+.table td {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 179.69%;
+    width: 300px;
+    padding: 6px 0 5px 0;
+}
+
+.features-text {
+    max-width: 490px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.rocket {
+    position: absolute;
+    top: -200px;
+    right: 0;
+    z-index: 99;
 }

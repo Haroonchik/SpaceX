@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/vidbg.css">
     <title>Space X</title>
 </head>
+
 <body>
 
-   <header class="header">
+    <header class="header">
         <img src="img/logo.svg" alt="Логотип Space X" class="logo">
-       <nav class="main-nav">
+        <nav class="main-nav">
             <ul class="list">
                 <li class="item">
                     <a class="item-link" href="#">Falcon 9</a>
@@ -27,25 +30,80 @@
                     <a class="item-link" href="#">Updates</a>
                 </li>
             </ul>
-       </nav>
-       <nav class="secondary-nav">
-           <ul class="list">
-               <li class="item">
-                   <a href="" class="item-link">About</a>
+        </nav>
+        <nav class="secondary-nav">
+            <ul class="list">
+                <li class="item">
+                    <a href="" class="item-link">About</a>
                 </li>
-               <li class="item">
-                   <a href="" class="item-link">Gallery</a>
+                <li class="item">
+                    <a href="" class="item-link">Gallery</a>
                 </li>
-               <li class="item">
-                   <a href="" class="item-link">Shop</a>
+                <li class="item">
+                    <a href="" class="item-link">Shop</a>
                 </li>
-           </ul>
-       </nav>
-   </header>
+            </ul>
+        </nav>
+    </header>
 
+    <section class="main">
+        <div class="container">
+            <h1>Falcon Heavy</h1>
+            <p>the most powerful operational rocket in the world by a factor of two</p>
+        </div>
+        <!-- /container -->
+    </section>
 
-   <div class="container">
-    </div> <!-- /container -->  
+    <div class="video"></div>
 
+    <section class="features">
+        <div class="container">
+            <div class="overview">
+                <img src="img/rocket.png" alt="rocket" class="rocket" data-rellax-speed="7">
+                <h2 class="features-title">Falcon Heavy <br> Overview</h2>
+                <table class="table">
+                    <tr>
+                        <td>HEIGHT</td>
+                        <td>70 m / 229.6 ft</td>
+                    </tr>
+                    <tr>
+                        <td>DIAMETER</td>
+                        <td>12.2 m / 39.9 ft</td>
+                    </tr>
+                    <tr>
+                        <td>MASS</td>
+                        <td>1,420,788 kg / 3,125,735 lb</td>
+                    </tr>
+                    <tr>
+                        <td>PAYLOAD TO LEO</td>
+                        <td>63,800 kg / 140,660 lb</td>
+                    </tr>
+                    <tr>
+                        <td>PAYLOAD TO GTO </td>
+                        <td>26,700 kg / 58,860 lb</td>
+                    </tr>
+                    <tr>
+                        <td>PAYLOAD TO MARS</td>
+                        <td>16,800 kg / 37,040 lb</td>
+                    </tr>
+                </table>
+
+                <h2 class="features-title">
+                    UNMATCHED <br> PERFORMANCE
+                </h2>
+                <p class="features-text">
+                    With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent
+                    of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.
+                </p>
+            </div>
+            <!--/.overview -->
+        </div>
+        <!--/.container -->
+    </section>
+
+    <script src="scripts/vidbg.js"></script>
+    <script src="scripts/rellax.min.js"></script>
+    <script src="scripts/index.js"></script>
 </body>
+
 </html>
