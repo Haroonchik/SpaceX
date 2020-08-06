@@ -255,4 +255,7 @@ header {
     .features-title {
         margin-top: 80px;
     }
+    .features-text {
+        text-align: justify;
+    }
 }
