@@ -86,8 +86,7 @@ header {
 }
 
 .features {
-    padding-top: 190px;
-    padding-left: 52px;
+    padding: 190px 20px 0 20px;
 }
 
 .overview {
@@ -217,6 +216,7 @@ header {
     }
     .footer {
         padding-top: 150px;
+        padding-bottom: 65px;
     }
     .video {
         width: 100%;
@@ -247,5 +247,12 @@ header {
     }
     .main {
         padding-top: 50px;
+    }
+    .rocket {
+        display: block;
+        margin: 0 auto;
+    }
+    .features-title {
+        margin-top: 80px;
     }
 }
