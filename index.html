@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/vidbg.css">
+    <link rel="stylesheet" href="styles/aos.css">
     <title>Space X</title>
 </head>
 
 <body>
 
     <header class="header">
-        <img src="img/logo.svg" alt="Логотип Space X" class="logo">
-        <nav class="main-nav">
+        <img src="img/logo.svg" alt="Логотип Space X" class="logo" data-aos="fade-down">
+        <nav class="main-nav" data-aos="fade-down">
             <ul class="list">
                 <li class="item">
                     <a class="item-link" href="#">Falcon 9</a>
@@ -31,7 +32,7 @@
                 </li>
             </ul>
         </nav>
-        <nav class="secondary-nav">
+        <nav class="secondary-nav" data-aos="fade-down">
             <ul class="list">
                 <li class="item">
                     <a href="" class="item-link">About</a>
@@ -48,18 +49,18 @@
 
     <section class="main">
         <div class="container">
-            <h1>Falcon Heavy</h1>
-            <p>the most powerful operational rocket in the world by a factor of two</p>
+            <h1 data-aos="fade-up" data-aos-delay="600">Falcon Heavy</h1>
+            <p data-aos="fade-up" data-aos-delay="1000">the most powerful operational rocket in the world by a factor of two</p>
         </div>
         <!-- /container -->
     </section>
 
-    <div class="video"></div>
+    <div class="video" data-aos="fade-up" data-aos-delay="1500"></div>
     <div class="container">
         <section class="features">
             <div class="overview">
-                <h2 class="features-title">Falcon Heavy <br> Overview</h2>
-                <table class="table">
+                <h2 class="features-title" data-aos="fade-right" data-aos-delay="600">Falcon Heavy <br> Overview</h2>
+                <table class="table" data-aos="fade-right" data-aos-delay="600">
                     <tr>
                         <td>HEIGHT</td>
                         <td>70 m / 229.6 ft</td>
@@ -85,11 +86,11 @@
                         <td>16,800 kg / 37,040 lb</td>
                     </tr>
                 </table>
-                <img src="img/rocket.png" alt="rocket" class="rocket" data-rellax-speed="20">
-                <h2 class="features-title">
+                <img src="img/rocket.png" alt="rocket" class="rocket" data-rellax-speed="17">
+                <h2 class="features-title" data-aos="fade-right" data-aos-delay="600">
                     UNMATCHED <br> PERFORMANCE
                 </h2>
-                <p class="features-text">
+                <p class="features-text" data-aos="fade-right" data-aos-delay="600">
                     With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent
                     of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.
                 </p>
@@ -102,9 +103,9 @@
 
     <div class="container">
         <footer class="footer">
-            <img src="img/logo.svg" alt="Space X logo" class="logo">
+            <img src="img/logo.svg" alt="Space X logo" class="logo" data-aos="zoom-in-down" data-aos-delay="600">
             <nav class="footer-nav">
-                <ul class="list">
+                <ul class="list" data-aos="zoom-in-down" data-aos-delay="300">
                     <li class="item"><a href="#" class="item-link">Twitter</a></li>
                     <li class="item"><a href="#" class="item-link">Youtube</a></li>
                     <li class="item"><a href="#" class="item-link">Instagram</a></li>
@@ -120,6 +121,7 @@
     </div>
     <script src="scripts/vidbg.js"></script>
     <script src="scripts/rellax.min.js"></script>
+    <script src="scripts/aos.js"></script>
     <script src="scripts/index.js"></script>
 </body>
 
